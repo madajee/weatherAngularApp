@@ -2,7 +2,10 @@
     <div class="col-md-6 col-md-offset-3">
         <h4>Forecast by City</h4>
         <div class="form-group">
-            <input type="text" ng-model="city" class="form-control" />
+            <input type="text" ng-model="city" class="form-control" /></br>
+            <label class="col-form-label text-primary">Enter your App Key from Open Weather Map</label>
+            <input type="text" ng-model="appkey" class="form-control" />
+            <label class="col-form-label text-muted">Appkey is not stored and passed in the api call</label>
         </div>
         <a href="#/forecast" class="btn btn-primary">Get Forecast</a>
     </div>
